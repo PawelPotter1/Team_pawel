@@ -1252,7 +1252,9 @@ input, select, textarea {
 			}
 
 	footer {
-		margin: 2.5em 0 0 0;
+		margin: 2.5em 0 0 0; 
+		background-color: black;
+		border: 3px white solid;
 	}
 
 	header.major {
