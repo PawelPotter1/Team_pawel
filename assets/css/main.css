@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800"); */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -191,16 +192,13 @@ body.is-preload * {
     animation: none !important;
 }
 
-body,
-input,
-select,
-textarea {
-    font-family: "Open Sans", sans-serif;
-    color: #7b818c;
-    font-weight: 400;
-    font-size: 11pt;
-    line-height: 1.85em;
-}
+	body, input, select, textarea {
+		font-family: 'Lato', sans-serif;
+		color: #43464b;
+		font-weight: 400;
+		font-size: 11pt;
+		line-height: 1.85em;
+	}
 
 a {
     color: inherit;
@@ -211,18 +209,14 @@ a:hover {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    color: #404248;
-    margin: 0 0 1em 0;
-}
+	h1, h2, h3, h4, h5, h6 {
+		text-transform: uppercase;
+		font-weight: 800;
+		letter-spacing: 0.04em;
+		/* color: #404248; */
+		color: #274c77 ;
+		margin: 0 0 1em 0;
+	}
 
 h1 a,
 h2 a,
@@ -1526,6 +1520,7 @@ table.default thead {
 
 /* Button */
 
+
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -1563,6 +1558,7 @@ button,
     white-space: nowrap;
     cursor: pointer;
 }
+
 
 input[type="button"].icon:before,
 input[type="submit"].icon:before,
@@ -2051,6 +2047,7 @@ ol.default li {
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 }
 
+
 #header h1 {
     position: absolute;
     left: 1.75em;
@@ -2074,9 +2071,13 @@ ol.default li {
     color: #fff;
 }
 
-#footer strong {
-    color: #fff;
-}
+		#footer .row .col-6 section p{
+			color: #A3CEF1;
+		}
+		
+		#footer strong {
+			color: #fff;
+		}
 
 #footer a {
     color: #acb2bf;
