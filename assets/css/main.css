@@ -1314,68 +1314,67 @@ table {
 
 /* Section/Article */
 
-section,
-article {
-    margin-bottom: 5em;
-}
+	section, article {
+		margin-bottom: 5em;
+	}
 
-section > :last-child,
-article > :last-child,
-section:last-child,
-article:last-child {
-    margin-bottom: 0;
-}
+	section > :last-child,
+	article > :last-child,
+	section:last-child,
+	article:last-child {
+		margin-bottom: 0;
+	}
 
-header {
-    margin: 0 0 2em 0;
-}
+	header {
+		margin: 0 0 2em 0;
+	}
 
-header h2,
-header h3 {
-    margin: 0 0 0.25em 0;
-}
+		header h2, header h3 {
+			margin: 0 0 0.25em 0;
+		}
 
-header p {
-    display: block;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.065em;
-    font-size: 0.9em;
-    color: #696969;
-    margin: 0;
-}
+		header p {
+			display: block;
+			text-transform: uppercase;
+			font-weight: 700;
+			letter-spacing: 0.065em;
+			font-size: 0.9em;
+			color: #696969;
+			margin: 0;
+		}
 
-header p strong {
-    color: #404248;
-    font-weight: 800;
-}
+			header p strong {
+				color: #404248;
+				font-weight: 800;
+			}
 
-footer {
-    margin: 2.5em 0 0 0;
-}
+	footer {
+		margin: 2.5em 0 0 0; 
+		background-color: black;
+		border: 3px white solid;
+	}
 
-header.major {
-    border-bottom: solid 1px #dbdbdb;
-    margin: 0 0 3em 0;
-}
+	header.major {
+		border-bottom: solid 1px #dbdbdb;
+		margin: 0 0 3em 0;
+	}
 
-header.major:after {
-    content: "";
-    display: block;
-    border-top: solid 1px #dbdbdb;
-    height: 8px;
-}
+		header.major:after {
+			content: '';
+			display: block;
+			border-top: solid 1px #dbdbdb;
+			height: 8px;
+		}
 
-header.major h2,
-header.major h3 {
-    margin: 0 0 1.2em 0;
-}
+		header.major h2, header.major h3 {
+			margin: 0 0 1.2em 0;
+		}
 
-header.major p {
-    margin: 0 0 1.5em 0;
-    position: relative;
-    top: -1em;
-}
+		header.major p {
+			margin: 0 0 1.5em 0;
+			position: relative;
+			top: -1em;
+		}
 
 /* Forms */
 
